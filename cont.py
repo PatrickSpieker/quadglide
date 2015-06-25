@@ -17,8 +17,6 @@ print("Buttons:", listbuttons)
 print("Axes:", listaxes)
 
 while 0:
-	#for i in listaxes:
-	#	prinkt(gamepad.get_axis(i))	
 	for event in pygame.event.get():
 		x1 = gamepad.get_axis(0)
 		y1 = gamepad.get_axis(1)
@@ -26,11 +24,4 @@ while 0:
 		y2 = gamepad.get_axis(4)
 		axis2 = gamepad.get_axis(2)
 		axis5 = gamepad.get_axis(5)	
-		#print("stick1 x:", x1)
-		#print("stick1 y:", y1)		
-		#print("axis2:", axis2)
-		print("axis5:", axis5)
-		#if event.type == pygame.JOYBUTTONDOWN:
-                        #print("Button Pressed.")
-#	if pygame.event.poll().type == pygame.JOYBUTTONDOWN:
-#		print("Button Down")
+		
